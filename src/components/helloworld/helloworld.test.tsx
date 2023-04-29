@@ -1,10 +1,10 @@
 import { screen, render } from '@testing-library/react'
 
-import Home from '../pages'
+import HelloWorld from '.'
 
-describe('<Home />', () => {
+describe('<HelloWorld />', () => {
   it('should have a title', () => {
-    render(<Home />)
+    render(<HelloWorld />)
 
     expect(screen.getByRole('heading')).toBeInTheDocument()
   })
