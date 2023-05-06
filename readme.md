@@ -9,3 +9,5 @@
 ```bash
   npx generate-react-cli component HomePage --type=page
 ```
+
+ref: https://dev.to/arminbro/generate-react-cli-1ooh
