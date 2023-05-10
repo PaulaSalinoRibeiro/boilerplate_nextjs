@@ -16,7 +16,7 @@
   },
   "lint-staged": {
     "src/**/*{ts,tsx}": "npm run lint",
-    "src/**/*{test.tsx}": "npm test --findRelatedTests --bail"
+    "src/**/*test.tsx": "npm test --findRelatedTests --bail"
   },
   "keywords": [],
   "author": "",
